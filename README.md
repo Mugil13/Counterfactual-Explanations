@@ -23,5 +23,6 @@ Though demonstrated on MNIST, this framework has applications in real-world doma
 This project structure and explanation format is inspired by OmniXAI, an open-source library by Salesforce Research for Explainable AI.
 
 Idea Adapted from:
+
 	1) Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations without Opening the Black Box. arXiv:1711.00399
 	2) Xuhong Zhang, Huan Wang, etc. (2022).

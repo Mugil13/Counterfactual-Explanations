@@ -1,33 +1,27 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1T2syP982NXgAinx8ueXicIwR476K2QLt)
+## Counterfactual Explanations for MNIST
 
-# Counterfactual Explanations for MNIST
+I wanted to explore the concepts of Explainable AI and counterfactual reasoning. This project provides insights into the same using the MNIST dataset. Counterfactual explanations, in simple terms, aim to answer the question:
 
-This project explores the use of counterfactual reasoning to provide explainable insights for the MNIST dataset. This features principal topics in Explainable AI and Counterfactual Map Generators which can be used in various important functions like Alzheimer's and other clinical 
+	"What minimal change to this input would flip the model’s decision?"
 
----
+By counterfactual maps, we can better understand what features the model relies on for its predictions. Thus, this serves as a great tool for understanding the decisions made by also keeping them factually correct and also at the same time helping in bias detection for deep learning systems.
 
-## Features of the document
+## Objective
 
-- Counterfactual generation and visualization
-- Integration with pretrained classification models
-- Explainability through saliency and perturbation maps
+To design and evaluate a pipeline that:
 
----
+	1) Predicts MNIST digit classes using a deep neural network.
 
-## How to Run
+	2) Generates counterfactual images for given inputs that would cause the model to change its classification.
 
-### Open in Colab:
-Click the badge above to run the notebook instantly in Google Colab.
+	3) Visualizes original, counterfactual, and difference maps.
 
-### Or run locally:
-```bash
-git clone https://github.com/Mugil13/Counterfactual-Explanations.git
-cd Your-Repo-Name
-pip install -r requirements.txt
-jupyter notebook
-```
----
+## Applications
+Though demonstrated on MNIST, this framework has applications in real-world domains as well like clinical diagnosis (best example being Alzheimer's detection from MRIs
 
-## Author
-Mugilkrishna D U (@Mugil13)
+## Reference and citations
+This project structure and explanation format is inspired by OmniXAI, an open-source library by Salesforce Research for Explainable AI.
 
+Idea Adapted from:
+	1) Wachter, S., Mittelstadt, B., & Russell, C. (2017). Counterfactual Explanations without Opening the Black Box. arXiv:1711.00399
+	2) Xuhong Zhang, Huan Wang, etc. (2022).
